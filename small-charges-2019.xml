@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><xb:xml-fragment xmlns:xb="http://com/exlibris/urm/rep/externalsysfinesfees/xmlbeans">
+  <xb:userExportedFineFees>
+    <xb:exportNumber>198136520000121</xb:exportNumber>
+  </xb:userExportedFineFees>
+  <xb:userExportedFineFees>
+    <xb:userExportedList>
+      <xb:userExportedFineFeesList>
+        <xb:user>
+          <xb:type>userName</xb:type>
+          <xb:value>smith123</xb:value>
+          <xb:owneredEntity>
+            <xb:InstitutionId>null</xb:InstitutionId>
+          </xb:owneredEntity>
+        </xb:user>
+        <xb:patronName>Smith, Josh</xb:patronName>
+        <xb:finefeeList>
+          <xb:userFineFee>
+            <xb:fineFeeComment/>
+            <xb:fineFeeType>OTHER</xb:fineFeeType>
+            <xb:owneredEntity>
+              <xb:InstitutionId>121</xb:InstitutionId>
+            </xb:owneredEntity>
+            <xb:lastTransactionDate>03/11/2013 10:16:12 IST</xb:lastTransactionDate>
+            <xb:itemTitle/>
+            <xb:compositeSum>
+              <xb:currency>USD</xb:currency>
+              <xb:sum>65</xb:sum>
+              <xb:vat/>
+            </xb:compositeSum>
+            <xb:bursarTransactionId>INST00019145</xb:bursarTransactionId>
+          </xb:userFineFee>
+        </xb:finefeeList>
+      </xb:userExportedFineFeesList>
+    </xb:userExportedList>
+  </xb:userExportedFineFees>
+</xb:xml-fragment>
