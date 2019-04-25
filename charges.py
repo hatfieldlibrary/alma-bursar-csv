@@ -21,8 +21,8 @@ with open('charges.csv', mode='w') as breaklist_data:
                 user_fine = fee_list.findall('xb:userFineFee', ns) 
                 for fine in user_fine:
                      composite = fine.find('xb:compositeSum', ns)
-                     sum = composite.find('xb:sum', ns)
-                     breaklist_data_writer.writerow([patron_name.text,user_id.text,sum.text])
+                     total_due = composite.find('xb:sum', ns)
+                     breaklist_data_writer.writerow([patron_name.text,user_id.text,total_due.text])
 
 
 
